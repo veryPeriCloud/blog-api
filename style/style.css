@@ -1,0 +1,83 @@
+:root {
+    --text-color: #212529;
+    --bs-blue: #0d6efd;
+}
+
+/* .container {
+    max-width: 1950px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+} */
+
+.articles__container,
+.post__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.articles__title {
+    text-align: center;
+}
+
+.article__list {
+    margin-bottom: 30px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.articles__item {
+    position: relative;
+    padding: 0;
+}
+
+.articles__link {
+    display: block;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.pagination__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.pagination__item--active {
+    background-color: red;
+}
+
+.pagination__btn {
+    text-decoration: none;
+}
+
+.pagination__btn--active {
+    background-color: red;
+}
+
+/*СТИЛИЗАЦИЯ СТАТЬИ*/
+
+.post__title {
+    color: var(--bs-blue);
+}
+
+.post__list {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+/* .comments__item {
+    display: flex;
+} */
+
+.comments__user {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.comments__text {
+    margin-bottom: 0;
+}
